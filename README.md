@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este projeto utiliza Vite como seu bundler, db-json como um banco de dados JSON para armazenamento de dados e inclui testes unitários para garantir a robustez do código. Este documento fornecerá uma visão geral do projeto, instruções de instalação, detalhes sobre o banco de dados, uma visão geral do código-fonte e informações sobre como executar os testes unitários.
+Este projeto utiliza Vite como seu bundler, db-json como um banco de dados JSON para armazenamento de dados e inclui testes unitários para garantir a robustez do código. Este documento fornecerá uma visão geral do projeto, instruções de instalação, detalhes sobre o banco de dados, informações sobre como executar os testes unitários e uma visão geral do resultado. 
 
 ## Instalação
 
@@ -40,9 +40,9 @@ Para iniciar o ambiente de desenvolvimento do front-end, utilize o seguinte coma
 ```bash
 npm run dev
 ```
-Isso iniciará o servidor de desenvolvimento e você poderá acessar o aplicativo em http://localhost:3000.
+Isso iniciará o servidor de desenvolvimento e você poderá acessar o aplicativo em http://localhost:5173.
 
-Nota: Após iniciar o servidor, se o nanegador não abrir automaticamente, digite o atalho 'o' no terminal.
+Nota: Após iniciar o servidor, se o navegador não abrir automaticamente, digite o atalho 'o' no terminal.
 
 ## Testes unitários 
 
