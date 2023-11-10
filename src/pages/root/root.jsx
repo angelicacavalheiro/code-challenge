@@ -6,9 +6,9 @@ import ReceiversDatagrid from "../receiversDatagrid/receiversDatagrid";
 export default function Root() {
   return (
     <Container>
-      <Header/>
-      <Navbar/>
-      <ReceiversDatagrid/>
+		<Header/>
+		<Navbar/>
+		<ReceiversDatagrid/>
     </Container>
   );
 }

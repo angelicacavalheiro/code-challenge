@@ -12,9 +12,9 @@ export default function Filter({ filter, setFilter }) {
     <Container>
       <div className="input-container">
         <input
-          placeholder='Nome, CPF, agência ou conta'
-          value={filter} 
-          onChange={handleInputChange}
+			placeholder='Nome, CPF, agência ou conta'
+			value={filter} 
+			onChange={handleInputChange}
         />
         <AiOutlineSearch size={16} color='697680' className="search-icon" />
       </div>

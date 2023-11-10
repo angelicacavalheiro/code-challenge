@@ -73,7 +73,7 @@ export default function DialogUpdate({
             });
             reloadItems();
             onClose();
-    }
+        }
 
     const handleDelete = () => {
         deleteReceiverReq(receiver.id)

@@ -18,17 +18,17 @@ export default function SimpleSnackbar({severity}) {
 	};
 
   	const action = (
-    <>
-		<IconButton
-			size="small"
-			aria-label="close"
-			color="inherit"
-			onClick={handleClose}
-		>
-			<CloseIcon fontSize="small" />
-		</IconButton>
-    </>
-  );
+		<>
+			<IconButton
+				size="small"
+				aria-label="close"
+				color="inherit"
+				onClick={handleClose}
+			>
+				<CloseIcon fontSize="small" />
+			</IconButton>
+		</>
+	);
 
   	const { backgroundColor, color, message } = statusMappings[severity];
 
@@ -46,7 +46,7 @@ export default function SimpleSnackbar({severity}) {
 					backgroundColor,
 					color,
 				},
-			}}
+				}}
 			/>
 		</div>
 	);

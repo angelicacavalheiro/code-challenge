@@ -6,9 +6,9 @@ export default function DeleteSelectedButton({ selectedItems, onDeleteSelected }
 		onDeleteSelected(selectedItems);
 	};
 
-  return (
+	return (
 		<DeleteButtonStyle onClick={handleDeleteSelected} selected={selectedItems}>
 			Excluir selecionados
 		</DeleteButtonStyle>
-  );
+	);		
 }

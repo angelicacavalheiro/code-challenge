@@ -6,9 +6,9 @@ import { MemoryRouter } from 'react-router-dom';
 describe('Menu Options', () => {
     it('should redirect to the prop route when clicking the closeButton', async () => {
         const { getByTestId } = render(
-          <MemoryRouter initialEntries={['/favorecido/novo']} initialIndex={0}>
-            <Menu route={'/'} isBack={true} />
-          </MemoryRouter>
+			<MemoryRouter initialEntries={['/favorecido/novo']} initialIndex={0}>
+				<Menu route={'/'} isBack={true} />
+			</MemoryRouter>
         );    
         fireEvent.click(getByTestId('closeButton'));
         expect(window.location.pathname).toBe('/');

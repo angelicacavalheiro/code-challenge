@@ -13,11 +13,11 @@ export default function DialogButtons({ buttons }) {
 			className={getButtonStyle(button.label)}
 			data-testid={getButtonStyle(button.label)}
         >
-         	{button.label === 'Apagar' ? (
-            	<IoTrashBin size={18} color={theme.colors.white}/> 
-          ) : (
-            button.label
-          )}
+			{button.label === 'Apagar' ? (
+				<IoTrashBin size={18} color={theme.colors.white}/> 
+			) : (
+			button.label
+			)}
         </button>
       ))}
     </Container>
